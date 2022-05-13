@@ -1,8 +1,5 @@
 /* ModernRoach */
 /* Testować na Roach */
-@-moz-document domain(karachan.org)
-{
-
 
   :root
   {
@@ -926,11 +923,11 @@
     background: transparent!important;
   }
 
-@  media only screen and (max-width: 1024px)
-  {
+@  media only screen and (max-width: 1024px) {
     .group a {
 	background: var(--second)!important;
   }
+}
 
   #menu
   {
@@ -1498,5 +1495,3 @@ div.boardBanner > img
   content: "\f0c9";
   color: red!important;
 }
-
-
